@@ -1,4 +1,5 @@
-#Function to display arithmetic problems
+#Function to display arithmetic problems. It takes a list of strings as an argument, and also has an optional boolean argument which directs
+#whether the answers are displayed or not.
 
 def arithmetic_arranger(problems, show=False):
 
