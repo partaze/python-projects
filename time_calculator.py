@@ -100,9 +100,9 @@ def add_time(start, duration, day=None):
         try:                #handles index errors
           newDay = days[j]
         except:
-          y = (len(days)) - i
+          y = (j//7)*7
           x = j - y
-          newDay = days[x-1]
+          newDay = days[x]
           
         if count == 0:
           new_time+= ", " + newDay.strip()
